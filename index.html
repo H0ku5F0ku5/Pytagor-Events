@@ -1,39 +1,303 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PYTAGOR events — Son & Lumière</title>
-<meta name="description" content="PYTAGOR events : prestations son et lumière clé en main, location matériel et techniciens. Devis sous 48h.">
-<link rel="stylesheet" href="styles.css">
-<script type="application/ld+json" id="ldjson">
-{
-  "@context":"https://schema.org",
-  "@type":"LocalBusiness",
-  "name":"PYTAGOR events",
-  "description":"Prestations son et lumière, clé en main.",
-  "telephone":"+33 6 17 27 83 20",
-  "email":"Yann.pytagor@gmail.com",
-  "address":{"@type":"PostalAddress","addressLocality":"Paris","addressRegion":"Île-de-France","addressCountry":"FR"}
-}
-</script>
+  <meta charset="utf-8">
+  <title>PYTAGOR events — Soirées son & lumière d’exception</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="PYTAGOR events crée des expériences son & lumière inoubliables pour entreprises, marques et événements privés. L’improbable, parfaitement maîtrisé.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.png">
+  <!-- JSON-LD LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "PYTAGOR events",
+    "description": "Prestations son et lumière haut de gamme, soirées d’entreprise, concerts, mariages et événements privés.",
+    "telephone": "+33 6 12 34 56 78",
+    "email": "contact@pytagor-events.fr",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris",
+      "addressRegion": "Île-de-France",
+      "addressCountry": "FR"
+    },
+    "url": "https://www.pytagor-events.fr"
+  }
+  </script>
 </head>
 <body>
-<header><div class="wrap"><a class="logo" href="#home">PYTAGOR events</a><nav><a href="#services">Services</a><a href="#packs">Packs</a><a href="#contact">Contact</a></nav><a class="cta" href="#contact">Devis</a></div></header>
-<main>
-<section id="home" class="hero"><div class="wrap"><h1>PYTAGOR events</h1><p>Son & lumière clé en main — devis sous 48h.</p><a class="btn" href="#contact">Demander un devis</a></div></section>
-<section id="services" class="section wrap"><h2>Services</h2><div class="cards"><div class="card"><h3>Clé en main</h3><p>Son, lumière, régie, transport, techniciens.</p></div><div class="card"><h3>Location</h3><p>Matériel pro avec ou sans technicien.</p></div></div></section>
-<section id="packs" class="wrap"><h2>Packs</h2><div class="packs-grid"><div class="pack"><h3>Pack Son Small</h3><p class="price">€800 / jour</p></div><div class="pack"><h3>Pack Lumière Basic</h3><p class="price">€700 / jour</p></div></div></section>
-<section id="contact" class="wrap"><h2>Contact</h2>
-<form id="contactForm" name="contact" method="POST" data-netlify="true">
-<input type="hidden" name="form-name" value="contact">
-<label>Nom<input name="name" required></label>
-<label>Email<input type="email" name="email" required></label>
-<label>Message<textarea name="message"></textarea></label>
-<button type="submit" class="btn">Envoyer</button>
-</form>
-<p>Email: contact@pytagor-events.fr</p></section>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo">PYTAGOR<span>events</span></a>
+    <nav class="nav">
+      <a href="#concept">Concept</a>
+      <a href="#formats">Formats</a>
+      <a href="#signature">Signature</a>
+      <a href="#galerie">Réalisations</a>
+      <a href="#process">Méthode</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-outline header-cta">Parler de votre projet</a>
+    <button class="nav-toggle" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">Soirées & expériences son & lumière</p>
+        <h1>Vos événements méritent mieux que l’ordinaire.</h1>
+        <p class="hero-lead">
+          PYTAGOR events crée des expériences son & lumière inoubliables pour les entreprises, les marques et les événements privés.
+          L’improbable, parfaitement maîtrisé.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Obtenir une proposition</a>
+          <a href="#galerie" class="btn btn-ghost">Découvrir nos univers</a>
+        </div>
+        <ul class="hero-trust">
+          <li>Créativité sur‑mesure</li>
+          <li>Maîtrise technique irréprochable</li>
+          <li>Accompagnement de A à Z</li>
+        </ul>
+      </div>
+      <div class="hero-media">
+        <div class="hero-card">
+          <p class="hero-tag">Soirées prestige</p>
+          <p class="hero-quote">« L’événement que personne n’attend… mais que tout le monde retient. »</p>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero.jpg" alt="Scène son & lumière haut de gamme">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCEPT -->
+  <section id="concept" class="section section-dark">
+    <div class="wrap narrow">
+      <p class="eyebrow">Concept</p>
+      <h2>L’improbable, parfaitement maîtrisé.</h2>
+      <p class="big-text">
+        Nous ne faisons pas “juste” de la technique.  
+        Nous sculptons la lumière, orchestrons le son et dessinons des atmosphères qui marquent les esprits.
+      </p>
+      <p>
+        Chaque projet est pensé comme une expérience à part entière : une signature sonore, une écriture lumière,
+        un rythme, une montée en intensité. Vous gardez la vision, nous orchestrons l’invisible.
+      </p>
+    </div>
+  </section>
+
+  <!-- FORMATS -->
+  <section id="formats" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Formats</p>
+      <h2>Plusieurs formats. Une même exigence.</h2>
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Soirées d’entreprise</h3>
+          <p>Soirées de cohésion, lancements, galas. Une mise en scène qui porte votre message et votre image.</p>
+          <ul>
+            <li>Scénographie son & lumière</li>
+            <li>Discours, show, DJ, live</li>
+            <li>Coordination technique complète</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Concerts & showcases</h3>
+          <p>Des plateaux techniques calibrés pour les artistes, avec une exigence de son et de lumière de scène.</p>
+          <ul>
+            <li>Régie son & lumière</li>
+            <li>Backline & monitoring</li>
+            <li>Accompagnement artistes</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Mariages & privés</h3>
+          <p>Des ambiances lumineuses et sonores qui transforment un lieu en décor de cinéma.</p>
+          <ul>
+            <li>Éclairage architectural</li>
+            <li>Ambiance cocktail & soirée</li>
+            <li>DJ, live, effets spéciaux</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGNATURE -->
+  <section id="signature" class="section section-dark">
+    <div class="wrap">
+      <div class="signature-grid">
+        <div>
+          <p class="eyebrow">Signature PYTAGOR events</p>
+          <h2>Trois obsessions. Une promesse.</h2>
+          <p>
+            Chaque détail est pensé pour que vos invités vivent quelque chose qu’ils n’ont jamais vécu.
+          </p>
+          <div class="pill-grid">
+            <div class="pill">
+              <h3>Dénicher l’improbable</h3>
+              <p>Des lieux, des ambiances, des scénarios techniques qui sortent du cadre.</p>
+            </div>
+            <div class="pill">
+              <h3>Transformer en expérience</h3>
+              <p>Un fil conducteur, une dramaturgie, une montée en intensité maîtrisée.</p>
+            </div>
+            <div class="pill">
+              <h3>Créer des souvenirs</h3>
+              <p>Des instants forts, des images et des vibrations qui restent.</p>
+            </div>
+          </div>
+        </div>
+        <aside class="signature-aside">
+          <h3>Ce qui ne change jamais</h3>
+          <ul class="metrics">
+            <li>
+              <span class="metric-label">1 règle</span>
+              <span class="metric-value">Ne jamais faire deux fois la même soirée.</span>
+            </li>
+            <li>
+              <span class="metric-label">100%</span>
+              <span class="metric-value">Conçu autour de votre ADN.</span>
+            </li>
+            <li>
+              <span class="metric-label">0 compromis</span>
+              <span class="metric-value">Sur l’exigence technique.</span>
+            </li>
+            <li>
+              <span class="metric-label">∞</span>
+              <span class="metric-value">Dans la créativité.</span>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIE / UNIVERS -->
+  <section id="galerie" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Univers</p>
+      <h2>Les images parlent. L’émotion reste.</h2>
+      <p class="section-intro">
+        Chaque configuration raconte une histoire. La vôtre reste à écrire.
+      </p>
+      <div class="gallery-grid">
+        <figure class="gallery-item">
+          <img src="images/setup1.jpg" alt="Scène corporate élégante">
+          <figcaption>Scène corporate — lumière architecturale & son immersif</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="images/setup2.jpg" alt="Concert lumière dynamique">
+          <figcaption>Showcase live — dynamique lumière & impact sonore</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="images/setup3.jpg" alt="Mariage lumière chaleureuse">
+          <figcaption>Mariage — écrin lumineux & ambiance chaleureuse</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="images/setup4.jpg" alt="Soirée privée haut de gamme">
+          <figcaption>Soirée privée — scénographie sur‑mesure</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process" class="section section-dark">
+    <div class="wrap">
+      <p class="eyebrow">Méthode</p>
+      <h2>Une approche sur‑mesure, pensée pour l’inoubliable.</h2>
+      <div class="steps-grid">
+        <div class="step">
+          <span class="step-number">1</span>
+          <h3>Immersion</h3>
+          <p>Un échange approfondi pour comprendre vos enjeux, votre culture, vos contraintes et vos envies les plus fines.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">2</span>
+          <h3>Création</h3>
+          <p>Nous dessinons une expérience cohérente : scénographie, son, lumière, rythme, moments forts.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">3</span>
+          <h3>Exécution</h3>
+          <p>Une maîtrise opérationnelle absolue. Vous profitez de votre événement, nous orchestrons l’invisible.</p>
+        </div>
+      </div>
+      <div class="cta-center">
+        <a href="#contact" class="btn btn-primary">Parlons de votre prochaine soirée</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Parlons de votre projet.</h2>
+        <p>
+          Dites‑nous ce que vous avez en tête. Nous revenons vers vous avec une première vision
+          et une estimation sous 48h.
+        </p>
+        <ul class="contact-infos">
+          <li><strong>Email</strong> : <a href="mailto:contact@pytagor-events.fr">contact@pytagor-events.fr</a></li>
+          <li><strong>Téléphone</strong> : +33 6 12 34 56 78</li>
+          <li><strong>Basé à</strong> : Paris, Île‑de‑France — interventions France & Europe</li>
+        </ul>
+      </div>
+      <form id="contactForm" class="contact-form" name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+        <label>Nom / Société
+          <input type="text" name="name" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" required>
+        </label>
+        <label>Téléphone
+          <input type="tel" name="phone">
+        </label>
+        <label>Type d’événement
+          <select name="event_type">
+            <option>Soirée d’entreprise</option>
+            <option>Concert / showcase</option>
+            <option>Mariage</option>
+            <option>Événement privé</option>
+            <option>Autre</option>
+          </select>
+        </label>
+        <label>Date / période souhaitée
+          <input type="text" name="date" placeholder="Ex : juin 2026, jeudi soir, etc.">
+        </label>
+        <label>Message
+          <textarea name="message" rows="4" placeholder="Nombre d’invités, lieu, ambiance souhaitée…"></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary full">Envoyer ma demande</button>
+      </form>
+    </div>
+  </section>
 </main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>© PYTAGOR events — L’improbable, parfaitement maîtrisé.</p>
+    <nav class="footer-nav">
+      <a href="#">Mentions légales</a>
+      <a href="#">CGV</a>
+      <a href="#top">Retour en haut</a>
+    </nav>
+  </div>
+</footer>
+
 <script src="script.js"></script>
 </body>
 </html>
+
