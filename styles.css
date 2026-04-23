@@ -1,0 +1,92 @@
+/* Modern Dark Theme */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Neon Cyan Accents */
+a {
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff;
+}
+
+h1, h2, h3 {
+    color: #00ffff;
+}
+
+/* Smooth Transitions */
+* {
+    transition: all 0.3s ease;
+}
+
+/* Parallax Scrolling Effects */
+.parallax {
+    background-image: url('path/to/image.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Interactive Cards */
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Improved Typography */
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        margin: 10px;
+        padding: 15px;
+    }
+}
+
+/* Portfolio Gallery Styling */
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+/* Testimonials Section Styling */
+.testimonials {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Team Section Styling */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Floating Contact Button */
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00ffff;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
