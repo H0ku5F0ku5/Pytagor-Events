@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PYTAGOR events — Son & Lumière</title>
+<meta name="description" content="PYTAGOR events : prestations son et lumière clé en main, location matériel et techniciens. Devis sous 48h.">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json" id="ldjson">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"PYTAGOR events",
+  "description":"Prestations son et lumière clé en main, location de matériel et techniciens.",
+  "telephone":"+33 6 12 34 56 78",
+  "email":"contact@pytagor-events.fr",
+  "address":{"@type":"PostalAddress","addressLocality":"Paris","addressRegion":"Île-de-France","addressCountry":"FR"}
+}
+</script>
+</head>
+<body>
+<header><div class="wrap"><a class="logo" href="#home">PYTAGOR events</a><nav><a href="#services">Services</a><a href="#packs">Packs</a><a href="#contact">Contact</a></nav><a class="cta" href="#contact">Devis</a></div></header>
+<main>
+<section id="home" class="hero"><div class="wrap"><h1>PYTAGOR events</h1><p>Son & lumière clé en main — devis sous 48h.</p><a class="btn" href="#contact">Demander un devis</a></div></section>
+<section id="services" class="section wrap"><h2>Services</h2><div class="cards"><div class="card"><h3>Clé en main</h3><p>Son, lumière, régie, transport, techniciens.</p></div><div class="card"><h3>Location</h3><p>Matériel pro avec ou sans technicien.</p></div></div></section>
+<section id="packs" class="wrap"><h2>Packs</h2><div class="packs-grid"><div class="pack"><h3>Pack Son Small</h3><p class="price">€800 / jour</p></div><div class="pack"><h3>Pack Lumière Basic</h3><p class="price">€700 / jour</p></div></div></section>
+<section id="contact" class="wrap"><h2>Contact</h2>
+<form id="contactForm" name="contact" method="POST" data-netlify="true">
+<input type="hidden" name="form-name" value="contact">
+<label>Nom<input name="name" required></label>
+<label>Email<input type="email" name="email" required></label>
+<label>Message<textarea name="message"></textarea></label>
+<button type="submit" class="btn">Envoyer</button>
+</form>
+<p>Email: contact@pytagor-events.fr</p></section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
